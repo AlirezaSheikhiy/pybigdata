@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pybigdata"
+version = "1.0.0"
+description = "A python library that will eat bigdata"
+authors = [
+    {name = "Alireza Sheikhiy", email = "alir3zash3ikhiy@gmail.com"},
+]
+readme = "README.md"
