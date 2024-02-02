@@ -1,8 +1,7 @@
 Metadata-Version: 2.1
 Name: pybigdata
-Version: 1.0.0
-Summary: A python library that will eat bigdata
-Author-email: Alireza Sheikhiy <alir3zash3ikhiy@gmail.com>
+Version: 0.1.0
+Summary: This python library will eat pigdata.
 Description-Content-Type: text/markdown
 License-File: LICENSE
 License-File: AUTHORS.md
