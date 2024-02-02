@@ -9,5 +9,8 @@ recursive-include examples *
 graft tests
 graft docs
 exclude *.pyc
+exclude setup.py
 recursive-include * *.log
+recursive-exclude build *
+recursive-exclude dist *
 global-exclude __pycache__
