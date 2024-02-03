@@ -5,7 +5,6 @@ CONTRIBUTING.md
 LICENSE
 MANIFEST.in
 README.md
-setup.py
 docs/conf.py
 docs/index.md
 examples/example_linear_algebra.py

@@ -5,7 +5,7 @@ with open("README.md", "r") as file:
 
 setup(
     name="pybigdata",
-    version="0.1.0",
+    version="0.0.1",
     packages=find_packages(),
     description="This python library will eat pigdata.",
     long_description=LONG_DESCRIPTION,
