@@ -36,7 +36,8 @@ def batch_gradient_descent(X, y, alpha=0.01, epochs=1000):
 
         gradient = []
         for i in range(n):
-            gradient_i = 1 / m * sum(error * row[i] for error, row in zip(errors, X))
+            gradient_i = 1 / m * sum(error * row[i]
+                                     for error, row in zip(errors, X))
             gradient.append(gradient_i)
 
         theta = [theta[i] - alpha * gradient[i] for i in range(n)]
@@ -71,8 +72,8 @@ def mini_batch_gradient_descent(X, y, batch_size=32, alpha=0.01, epochs=1000):
 
     for _ in range(epochs):
         for i in range(0, m, batch_size):
-            xi = X[i : i + batch_size]
-            yi = y[i : i + batch_size]
+            xi = X[i: i + batch_size]
+            yi = y[i: i + batch_size]
 
             predictions = []
             for row in xi:
@@ -98,7 +99,7 @@ def mini_batch_gradient_descent(X, y, batch_size=32, alpha=0.01, epochs=1000):
 def simple_gradient_descent(
     df,
     x_0,
-    learnin_rate=0.01,
+    learning_rate=0.01,
     precision=0.000001,
     delta_x=1,
     max_iters=10000,
@@ -113,7 +114,7 @@ def simple_gradient_descent(
 
     while precision < delta_x and i < max_iters:
         x = x_0
-        x_0 = x_0 - learnin_rate * df(x)
+        x_0 = x_0 - learning_rate * df(x)
         i += 1
         delta_x = abs(x_0 - x)
         print(f"Iteration {i} : X value is {x_0}")
