@@ -2,7 +2,7 @@
 
 ## Overview
 
-PyBigData is a Python library for doing amazing things. It provides mathematical functionalities and methods related to Big Data, Machine Learning, Artificial Inteligence, Optimization, Probabilities, Statistics and Linear Algebra
+PyBigData is a Python library for doing amazing things. It provides mathematical functionalities and methods related to Big Data, Machine Learning, Artificial Intelligence, Optimization, Probabilities, Statistics and Linear Algebra
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ print(f"Determinant: {A.det()}")
 
 ```
 
-For more examples and detailed usage, refer to the [documents](https://github.com/AlirezaSheikhiy/pybigdata/tree/main/docs).
+For more examples and detailed usage, refer to the [documents](https://github.com/AlirezaSheikhiy/pybigdata/tree/master/docs).
 
 ## Contributing
 
@@ -44,8 +44,8 @@ We welcome contributions! If you want to contribute to the project, please check
 
 ## Issues
 
-If you encounter any issues or have suggestions, please open an [issue](https://github.com/AlirezaSheikhiy/pybigdata/issues) on GitHub.
+If you encounter any issues or have suggestions, please open an [issues](https://github.com/AlirezaSheikhiy/pybigdata/issues) on GitHub.
 
 ## License
 
-This project is licensed under the MIT License. See the [License](https://github.com/AlirezaSheikhiy/pybigdata/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [License](https://github.com/AlirezaSheikhiy/pybigdata/blob/master/LICENSE) file for details.
